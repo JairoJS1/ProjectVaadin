@@ -13,12 +13,12 @@ import com.example.application.views.MainLayout;
 public class AboutView extends VerticalLayout {
 
     public AboutView() {
-        Image img = new Image("images/empty-plant.png", "placeholder plant");
+        Image img = new Image("images/umg.png", "placeholder plant");
         img.setWidth("200px");
         add(img);
 
-        add(new H2("This place intentionally left empty"));
-        add(new Paragraph("It’s a place where you can grow your own UI 🤗"));
+        add(new H2("Universidad Mariano Gálvez"));
+        add(new Paragraph("'Y conoceréis la verdad, y la verdad os hará libres'"));
 
         setSizeFull();
         setJustifyContentMode(JustifyContentMode.CENTER);
